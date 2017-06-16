@@ -24,6 +24,7 @@
   -->
   </head>
 
+
   <body>
 
     <div class="topbar">
@@ -39,7 +40,19 @@
       </div>
     </div>
 
+
+
+
+
     <div class="container">
+
+        <div class="left_nav_bar">
+      <h3>文章分类</h3>
+      {% assign categories_list = site.categories %}
+      {% include JB/categories_list %}
+    </div>
+
+    <div class="container_0">
 
       <div class="content">
         {{ content }}
@@ -52,8 +65,9 @@
         </p>
       </footer>
 
+    </div> 
+    {% include JB/analytics %}
     </div> <!-- /container -->
 
-    {% include JB/analytics %}
   </body>
 </html>

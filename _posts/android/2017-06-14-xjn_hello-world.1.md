@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "xjn Hello World cat2"
+title: "xjn Hello World 222"
 description: ""
-category: cat2
+category: cat1
 tags: []
 ---
 {% include JB/setup %}

@@ -68,4 +68,45 @@ body {
 	border:1px solid #4C964D;
 	color:#FFF;
 }
-	
+
+/* xjn add for left navigation bar */
+.left_nav_bar {
+  position: relative;
+  height: inherit;
+  float: left;
+  width: 100px;
+	list-style:none;
+	margin:0;
+  padding: 10px;
+	overflow:hidden;
+	background: #ffffff;
+  border: 1px solid #dddddd;
+	border-radius: 3px;
+}
+
+.left_nav_bar li {
+	line-height:48px;
+}
+
+.left_nav_bar a {
+	padding: 3px 6px;
+	margin: 2px;
+	background: #eee;
+	color:#ff0000;
+	border-radius: 3px;
+	text-decoration:none;
+}
+.left_nav_bar a span{
+	vertical-align:super;
+	font-size:0.8em;
+}
+.left_nav_bar a.active {
+	background:#57A957;
+	border:1px solid #4C964D;
+	color:#FFF;
+}
+
+
+.container_0 {
+  margin-left: 150px;
+}
